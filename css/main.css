@@ -1,6 +1,6 @@
 body{
 	background-color: #666699;
-	text-decoration: white;
+	color: white;
 }
 
 /*nav bar*/
@@ -16,16 +16,29 @@ body{
 	float: left;
 }
 
-.nav li a{
+.nav li {
 	display: inline-block;
-	color: teal;
+	color: #f7eee6;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
 .nav li:hover{
-	color: teal;
+	background-color: #666699;
+	color: white;
+}
+.css-basics {
+	border: solid white 2px;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+
+}
+.css-statements {
+	border: solid white 2px;
+	padding: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+
 }
 
 /* CSS for Cartman*/	
