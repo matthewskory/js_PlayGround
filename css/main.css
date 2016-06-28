@@ -1,9 +1,35 @@
 body{
 	background-color: #666699;
 	text-decoration: white;
+}
+
+/*nav bar*/
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #f7eee6;
+	
+}
+.nav li{
+	float: left;
+}
+
+.nav li a{
+	display: inline-block;
+	color: teal;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li:hover{
+	color: teal;
+}
 
 /* CSS for Cartman*/	
-}#body {
+#body {
    display:absolute;
    width: 260px;
    height: 220px;
