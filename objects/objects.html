@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Object Demo</title>
+
+</head>
+<body>
+<!--<button onclick="sayHello()">test</button>	-->
+	<h2> Printing Objects Demo</h2>
+		<p>Printing objects to the page is <strike>easy</strike>... fairly simple when starting out.</p>
+
+	<p id="demo"></p>
+
+	<h2 id="name"> </h2>
+
+	<h2>Create an Object</h2>
+		<input type="text" id="newname">
+		<input type="number" id="newepisodeno">
+		<input type="text" id ="newdescription">
+		<button type="button" id="submitnew" onclick="submitnew()">Submit New</button>
+
+	<h2>Netflix Demo</h2>
+
+		<table border="1" >
+			<tr>
+				<th>Show Name</th>
+				<th>Episode #</th>
+				<th>Episode Description</th>
+			</tr>
+			<tr>
+				<td id="show-name"></td>	
+				<td id="episode-num"></td>	
+				<td id="episode-description"></td>	
+			</tr>
+		</table>	
+
+	<h2>Netflix Table Two</h2>
+		<table border="1" >
+			<tr>
+				<th>Show Name</th>
+				<th>Episode #</th>
+				<th>Episode Description</th>
+				<th>Status</th>
+			</tr>
+			<tr>
+				<td id="show-name-two"></td>	
+				<td id="episode-num-two"></td>	
+				<td id="episode-description-two"></td>
+				<td id="status-two"><button onclick="batman.status()" type="button">Watch Now</button></td>	
+			</tr>
+		</table>	
+
+<!-- JS File-->
+	<script type="text/javascript" src="objects.js"></script>
+</body>
+</html>

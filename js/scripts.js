@@ -40,6 +40,7 @@ var random = [];
 for (var i=0; i <10; i++){
 	random.push(Math.floor(Math.random()*100));
 }
+var randomCopy = random;
 
 for(var i = 0; i <random.length; i++){
 	for(var j = i+1; j<random.length; j++){
